@@ -32,3 +32,4 @@ if [ "$SHELL" != "/opt/homebrew/bin/fish" ]; then
     chsh -s /opt/homebrew/bin/fish
 fi
 
+stow -v -d ~/Developer/dotfiles -t ~/.config configs
