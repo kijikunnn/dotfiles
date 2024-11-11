@@ -26,7 +26,7 @@ fi
 brew bundle -v --file=~/Developer/dotfiles/Brewfile
 
 # Change Default shell to fish
-if [ "$SHELL" != "/usr/local/bin/fish" ] && [ "$SHELL" != "/opt/homebrew/bin/fish" ]; then
+if [ "$SHELL" != "/opt/homebrew/bin/fish" ]; then
     echo "Changing default shell to fish..."
     echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells
     chsh -s /opt/homebrew/bin/fish
