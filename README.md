@@ -15,11 +15,17 @@
   - [fish-bd](https://github.com/0rax/fish-bd)
   - [tide](https://github.com/IlanCosman/tide)
 
+### tide settings
+
+```bash
+$ tide configure --auto --style=Classic --prompt_colors='True color' --classic_prompt_color=Light --show_time='24-hour format' --classic_prompt_separators=Angled --powerline_prompt_heads=Round --powerline_prompt_tails=Round --powerline_prompt_style='Two lines, character' --prompt_connection=Disconnected --powerline_right_prompt_frame=No --prompt_spacing=Sparse --icons='Many icons' --transient=No
+```
+
 ## Handle settings
 
 - [GitHub Copilot](https://docs.github.com/ja/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot?tool=vscode)
 
-- ## iTerm2
+## iTerm2
 
 ## Work on the source Device
 
@@ -29,6 +35,10 @@
 # Even if exists Brewfile, --force is overwriting
 brew bundle dump --force
 ```
+
+Homebrew Formulae
+
+- Can cask tap apps ([url](https://formulae.brew.sh/cask/))
 
 ### Create iTerm2 settings file
 
